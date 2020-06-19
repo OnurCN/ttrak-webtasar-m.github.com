@@ -1,0 +1,61 @@
+#HeaderSection .navbar
+{
+ background: #d63031;
+ border-bottom: #FFF 03px solid;
+}
+
+#HeaderSection .navbar a
+{
+	color: #FFF;
+}
+#MainSection a
+{
+   text-decoration: none;
+   color: #2d3436;
+}
+
+#Form .textarea{
+	height: 100;
+}
+div.sup-cont
+{
+   background-color: none;
+   font-size: 46px;
+   
+   width:75px;
+   position: fixed;
+   right:50px;
+   bottom:30px;
+}
+div.sup-menu
+{
+   visibility: hidden;
+   opacity: 0;
+   font-size: 16px;
+   background-color: #d63031;
+   position:relative;
+   left:-250px;
+   width: 350px;
+   height: auto;
+   transition: 200ms all;
+}
+div.chat-cont
+{
+   width:100%;
+   height: 250px;
+   background-color: #FFF;
+   border: 1px solid gray;
+   position: relative;
+}
+div.msg-chat
+{
+   position: absolute;
+   width:175px;
+   height: auto;
+   color:black;
+   background-color: lightgray;
+   top:25px;
+   left:15px;
+   border-radius: 10px;
+   text-align: center;
+}
